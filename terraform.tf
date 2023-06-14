@@ -21,4 +21,10 @@ terraform {
 variable "instance_type" {
   type = string
   description = "t2.micro"
+  default = "t2.micro"
+}
+
+variable "aws_region" {
+  type = string
+  default = "us-west-1"
 }
