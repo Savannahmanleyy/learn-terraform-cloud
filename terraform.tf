@@ -28,3 +28,9 @@ variable "aws_region" {
   type = string
   default = "us-west-1b"
 }
+
+provider "aws" {
+  region = "us-west-1b"
+  access_key = "AKIAUNQRB3TP6L3ULQ7U"
+  secret_key = "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"
+}
