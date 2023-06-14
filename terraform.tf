@@ -17,11 +17,8 @@ terraform {
 
   required_version = ">= 0.14.0"
 }
-<<<<<<< HEAD
-=======
 
 variable "instance_type" {
   type = string
   description = "t2.micro"
 }
->>>>>>> b6f1da7 (fix var add)
