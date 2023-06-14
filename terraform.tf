@@ -31,6 +31,4 @@ variable "aws_region" {
 
 provider "aws" {
   region = "us-west-1"
-  access_key = "AKIAUNQRB3TP6L3ULQ7U"
-  secret_key = "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"
 }
