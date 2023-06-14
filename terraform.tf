@@ -8,7 +8,7 @@ terraform {
     }
   }
 */
-  required_providers {
+required_providers {
     aws = {
       source  = "hashicorp/aws"
       version = "~> 5.3.0"
@@ -26,11 +26,11 @@ variable "instance_type" {
 
 variable "aws_region" {
   type = string
-  default = "us-west-1b"
+  default = "us-west-1"
 }
 
 provider "aws" {
-  region = "us-west-1b"
+  region = "us-west-1"
   access_key = "AKIAUNQRB3TP6L3ULQ7U"
   secret_key = "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"
 }
